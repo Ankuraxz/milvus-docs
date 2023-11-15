@@ -50,7 +50,7 @@ Creating milvus-standalone ... done
 Now check if the containers are up and running.
 
 ```
-$ sudo docker compose ps
+$ sudo docker-compose ps
 ```
 
 After Milvus standalone starts, there will be three docker containers running, including the Milvus standalone service and its two dependencies.
